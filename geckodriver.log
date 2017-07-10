@@ -55,3 +55,28 @@ Full stack:
 1499704261402	Marionette	INFO	Listening on port 34349
 1499704263527	Marionette	WARN	TLS certificate errors will be ignored for this session
 1499704269663	Marionette	INFO	New connections will no longer be accepted
+1499706030039	geckodriver	INFO	Listening on 127.0.0.1:56063
+1499706031259	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1499706035007	Marionette	INFO	Listening on port 37231
+1499706035135	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499706039071	Marionette	INFO	New connections will no longer be accepted
+1499706145344	geckodriver	INFO	Listening on 127.0.0.1:48207
+1499706146523	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1499706150433	Marionette	INFO	Listening on port 38219
+1499706150571	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499706151569	Marionette	INFO	New connections will no longer be accepted
+1499706266244	geckodriver	INFO	Listening on 127.0.0.1:38399
+1499706267377	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1499706271136	Marionette	INFO	Listening on port 39729
+1499706271321	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499706275416	Marionette	INFO	New connections will no longer be accepted
+1499706332061	geckodriver	INFO	Listening on 127.0.0.1:32953
+1499706333220	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1499706336953	Marionette	INFO	Listening on port 40491
+1499706337097	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499706341258	Marionette	INFO	New connections will no longer be accepted
+1499706577233	geckodriver	INFO	Listening on 127.0.0.1:38151
+1499706578399	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1499706582168	Marionette	INFO	Listening on port 44875
+1499706582348	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499706586468	Marionette	INFO	New connections will no longer be accepted
