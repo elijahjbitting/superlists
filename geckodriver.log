@@ -140,3 +140,8 @@ Full stack:
 1499715511314	Marionette	INFO	Listening on port 41585
 1499715511479	Marionette	WARN	TLS certificate errors will be ignored for this session
 1499715513155	Marionette	INFO	New connections will no longer be accepted
+1499723345158	geckodriver	INFO	Listening on 127.0.0.1:50023
+1499723346319	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1499723350121	Marionette	INFO	Listening on port 36371
+1499723350279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499723352122	Marionette	INFO	New connections will no longer be accepted

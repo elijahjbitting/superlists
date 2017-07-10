@@ -6,6 +6,17 @@ from lists.views import home_page
 
 # Create your tests here.
 
+class ItemModelTest(TestCase):
+
+	def test_saving_and_retrieving_items(self):
+		first_item _ Item()
+		first_item.text = 'The first (ever) list item'
+		first_item.save()
+
+		second_item _ Item()
+		second_item.text = 'Item the second'
+		second_item.save()
+
 class HomePageTest(TestCase):
 
 	def test_root_url_resolves_to_home_page_view(self):
