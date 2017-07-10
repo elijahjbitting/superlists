@@ -30,21 +30,28 @@ class NewVisitorTest(unittest.TestCase):
 
 
 		# She types "Buy peacock feathers" into a text box (Edith's hobby is fly tying")
-		inputbox.send_keys('Buy peacock feathers')
+		newItemText1 = 'Buy peacock feathers'
+		inputbox.send_keys(newItemText1)
 
 		# When she hits enter, the page updates and now it lists 
 		# '1: Buy peacock feathers' as an item in a to-do list
+		
+		### --- time.sleep used to debug
+		###import time
+		###time.sleep(10)
 		inputbox.send_keys(Keys.ENTER)
 		table = self.browser.find_element_by_id('id_list_table')
 		rows = table.find_elements_by_tag_name('tr')
-		self.assertTrue(
-			any(row.text == '!: Buy peacock feathers' for row in rows),
-			"New To-Do item did not appear in table")
-		
+		expectedRowText1 = '1: ' + newItemText1
+		self.assertIn(expectedRowText1, [row.text for row in rows])
 
 		# There is still a textbox inviting her to add another item. She 
 		# enters "Use peacock feathers to make a fly" (Edith is very methodical)
-		self.fail('Finish the test')
+		newItemText2 = 'Use peacock feathers to make a fly'
+		inputbox.send_keys(newItemText2)
+		expectedRowText2 = '2: ' + newItemText
+		inputbox.send_keys(Keys.ENTER)
+		self.assertIn(expectedRowText2, [row.text for row in rows])
 
 		# The page updates again, and now shows both items on her list
 
@@ -54,6 +61,7 @@ class NewVisitorTest(unittest.TestCase):
 
 		# She visits that URL - her to-do list is still there
 
+		self.fail('Finish the test')
 		# Satisfied, she goes back to sleep
 
 if __name__ == '__main__':
