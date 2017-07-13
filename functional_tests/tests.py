@@ -48,6 +48,7 @@ class NewVisitorTest(LiveServerTestCase):
 		
 		import time	
 		inputbox.send_keys(Keys.ENTER)
+		time.sleep(3)
 		edith_list_url = self.browser.current_url
 		self.assertRegex(edith_list_url, '/lists/.+')
 		expectedRowText1 = '1: ' + newItemText1
@@ -91,8 +92,8 @@ class NewVisitorTest(LiveServerTestCase):
 
 		# Francis gets his own unique URL
 		francis_list_url = self.browser.current_url
-		self.asserRegex(francis_list_url, '/lists.+')
-		self.asserNotEqual(francis_list_url, edith_list_url)
+		self.assertRegex(francis_list_url, '/lists.+')
+		self.assertNotEqual(francis_list_url, edith_list_url)
 
 		# Again there is no trace of Edith's list
 		page_text = self.browser.find_element_by_tag_name('body').text
