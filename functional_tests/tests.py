@@ -90,6 +90,7 @@ class NewVisitorTest(LiveServerTestCase):
 		inputbox.send_keys(FrancisItemText1)
 		inputbox.send_keys(Keys.ENTER)
 
+		time.sleep(3)
 		# Francis gets his own unique URL
 		francis_list_url = self.browser.current_url
 		self.assertRegex(francis_list_url, '/lists.+')
