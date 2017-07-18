@@ -456,3 +456,29 @@ Full stack:
 1500331415871	Marionette	INFO	Listening on port 37871
 1500331416069	Marionette	WARN	TLS certificate errors will be ignored for this session
 1500331420496	Marionette	INFO	New connections will no longer be accepted
+1500332894574	geckodriver	INFO	Listening on 127.0.0.1:46053
+1500332895720	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500332900132	Marionette	INFO	Listening on port 32845
+1500332900302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500332907555	Marionette	INFO	New connections will no longer be accepted
+1500332907915	geckodriver	INFO	Listening on 127.0.0.1:43397
+1500332909072	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500332913717	Marionette	INFO	Listening on port 40683
+1500332913874	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500332917960	Marionette	INFO	New connections will no longer be accepted
+1500334905234	geckodriver	INFO	Listening on 127.0.0.1:39115
+1500334907271	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500334930672	Marionette	INFO	Listening on port 41885
+1500334932839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500334948552	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 536: TypeError: this.tablesData[table] is undefined
+1500337485835	geckodriver	INFO	Listening on 127.0.0.1:55197
+1500337486987	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500337491186	Marionette	INFO	Listening on port 36539
+1500337491371	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500337498506	Marionette	INFO	New connections will no longer be accepted
+1500337498887	geckodriver	INFO	Listening on 127.0.0.1:41525
+1500337500066	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500337504433	Marionette	INFO	Listening on port 34879
+1500337504595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500337508846	Marionette	INFO	New connections will no longer be accepted
