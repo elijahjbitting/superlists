@@ -627,3 +627,19 @@ JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 
 1500349512688	Marionette	INFO	Listening on port 44403
 1500349513201	Marionette	WARN	TLS certificate errors will be ignored for this session
 1500349520691	Marionette	INFO	New connections will no longer be accepted
+1500564726027	geckodriver	INFO	Listening on 127.0.0.1:37229
+1500564727215	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500564731914	Marionette	INFO	Listening on port 33399
+1500564732120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500564739811	Marionette	INFO	New connections will no longer be accepted
+1500564740178	geckodriver	INFO	Listening on 127.0.0.1:47605
+1500564741343	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500564745203	Marionette	INFO	Listening on port 34667
+1500564745383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500564749881	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 536: TypeError: this.tablesData[table] is undefined
+1500564750333	geckodriver	INFO	Listening on 127.0.0.1:48079
+1500564751487	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1500564755298	Marionette	INFO	Listening on port 44503
+1500564755477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500564760043	Marionette	INFO	New connections will no longer be accepted
