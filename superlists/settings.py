@@ -20,11 +20,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'hkc4$*xbh=2#(6q(kw@t!4nsen1$f_r^g1+^^2w!$9tb!@s_^_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['superliststaging.ca','superlistlive.ca']
 
 
 # Application definition
