@@ -24,7 +24,7 @@ For purposes of following examples in book i used a custom-built version of pyth
 ## folder structure
 /home
   L /username
-      L /www
+      L /sites
           L /SITENAME 
               L database 
               L source 
