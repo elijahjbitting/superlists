@@ -849,3 +849,8 @@ JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 
 1502126883437	Marionette	INFO	Listening on port 34839
 1502126883616	Marionette	WARN	TLS certificate errors will be ignored for this session
 1502126887686	Marionette	INFO	New connections will no longer be accepted
+1502127823459	geckodriver	INFO	Listening on 127.0.0.1:37299
+1502127824609	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502127827970	Marionette	INFO	Listening on port 38011
+1502127828122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502127835548	Marionette	INFO	New connections will no longer be accepted
