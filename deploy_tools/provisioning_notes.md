@@ -20,6 +20,10 @@ For purposes of following examples in book i used a custom-built version of pyth
 ## Systemd startup script for gunicorn
 * see gunicorn_systemd_startup.template.conf
 * replace SITENAME token
+* Commands to register systemd startup scripts for gunicorn python http servers:
+$ sudo systemctl enable gunicorn_superliststaging.ca
+$ sudo systemctl enable gunicorn_superlistlive.ca
+
 
 ## folder structure
 /home
